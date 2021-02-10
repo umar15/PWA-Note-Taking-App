@@ -92,7 +92,7 @@ function App() {
 						onChange={(e) => setName(e.target.value)}
 					/>
 					<button type="submit" className="submit-btn">
-						{isEditing ? "edit" : "submit"}
+						{isEditing ? "Edit" : "Add"}
 					</button>
 				</div>
 			</form>
